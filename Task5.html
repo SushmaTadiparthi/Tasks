@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <style>
+        table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;}
+        p{
+            text-align: right;
+            padding:1px;
+        }
+        #text{
+            width: 99%;
+        }
+        </style>
+</head>
+<body>
+    <center><h1 style="color: blue;">Registration Form</h1>
+    <table style="width:55%">
+        <form>
+        <tr>
+            <td><b>First Name</b></td>
+            <td><input type="text" id="text" name="fname"/> </td>
+        </tr>
+        <tr>
+            <td><b>Last Name</b></td>
+            <td><input type="text" id="text" name="lname"/> </td>
+        </tr>
+        <tr>
+            <td><b>Email</b></td>
+            <td><input type="text" id="text" name="email"/> </td>
+        </tr>
+        <tr>
+            <td><b><label>Password</label></b></td>
+            <td><input type="password" id="text" name="pw"/></td>
+        </tr>
+        <tr>
+            <td><b><label>Re-enter Password</label></b></td>
+            <td><input type="password" id="text" name="repw"/></td>
+        </tr>
+        <tr>
+            <td rowspan="2"><b>Gender:</b></td>
+            <td><input type="radio" name="gender" value="Male"/>Male</td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="gender" value="Female"/>Female</td>
+        </tr>
+        <tr>
+            <td><b>Age:</b></td>
+            <td><input type="number" id="text" name="age"/> </td>
+        </tr>
+        <tr>
+            <td><b>Phone Number</b></td>
+            <td><input type="number" id="text" name="fname"/> </td>
+        </tr>
+        <tr>
+            <td><b>Address</b></td>
+            <td><textarea rows="5" cols="90"></textarea> </td>
+        </tr>
+        <tr>
+            <td><b>State</b></td>
+            <td><input type="text" id="text" name="state"/> </td>
+        </tr>
+        <tr>
+            <td><b>Country</b></td>
+            <td><select name="Country">
+                <option value="">Choose your country</option>
+                <option value="country">India</option>
+                <option value="country">America</option>
+                <option value="country">Japan</option>
+                <option value="country">Britain</option></td>
+        </tr>
+        <tr>
+            <td><b>Languages Known</b></td>
+            <td><input type="checkbox" name="Languages">English
+                <input type="checkbox" name="Languages">Kannada
+                <input type="checkbox" name="Languages">Hindi
+                <input type="checkbox" name="Languages">Telugu</td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="checkbox" required>Hereby I declare all the given details are true</td>
+        </tr>
+        <tr>
+            <td colspan="2" >
+            <p>Log in to <a href="https://ethnus.com/" target="_blank">Ethnus</a> website</p></td>
+        </tr>
+    </form>
+    </table>
+    <form>
+        <br><br><input type="submit" value="Register">
+    </form>
+</center>
+</body>
+</html>
